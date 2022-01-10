@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        uses: bilalAlpaslan/my-gh-action@master
+        uses: bilalalpaslan/my-gh-action@master
         with:
           command: "deneme"
         
