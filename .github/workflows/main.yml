@@ -8,10 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a one-line script
-        uses: bilalalpaslan/my-gh-action@master
-        with:
-          command: "deneme"
-        
+      - name: step-1
+        uses: bilalalpaslan/my-gh-action@main
       
-
+      - name: step-2
+        run: ls -la

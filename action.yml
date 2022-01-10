@@ -2,13 +2,13 @@ name: 'Container Action Template'
 
 description: 'Get started with Container actions'
 author: 'm.bilal.alpaslan@gmail.com'
-inputs: 
-  command:
-    description: 'Input to use'
-    default: 'world'
+# inputs: 
+#   command:
+#     description: 'Input to use'
+#     default: 'world'
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.command }}
+  # args:
+  #   - ${{ inputs.command }}
